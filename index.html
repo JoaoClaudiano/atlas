@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Mapa de Árvores Urbanas — Fortaleza</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  />
+
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+<header class="topbar">
+  <div class="logo">🌳 Árvores Urbanas</div>
+  <nav class="menu">
+    <a href="#">Metodologia</a>
+    <a href="#">Indicadores</a>
+    <a href="#">Artigos</a>
+    <a href="#">Colaborar</a>
+  </nav>
+</header>
+
+<main class="map-container">
+
+  <aside class="legend">
+    <h4>Legenda</h4>
+    <ul>
+      <li><span class="dot satellite"></span> Detectada por satélite</li>
+      <li><span class="dot confirmed"></span> Confirmada por pessoas</li>
+    </ul>
+  </aside>
+
+  <section id="map"></section>
+
+  <aside class="info-panel">
+    <h3>Árvores Urbanas</h3>
+    <p><strong>🌳 Estimativa:</strong> <span id="count-total">—</span></p>
+    <p><strong>📸 Confirmadas:</strong> <span id="count-confirmed">—</span></p>
+    <p><strong>🛰️ Fonte:</strong> Satélite (2024)</p>
+  </aside>
+
+</main>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="assets/js/map.js"></script>
+
+</body>
+</html>
