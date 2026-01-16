@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, sans-serif;
+}
+
+body {
+  height: 100vh;
+}
+
+.topbar {
+  height: 48px;
+  background: #ffffff;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+}
+
+.menu a {
+  margin-left: 12px;
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+}
+
+.map-container {
+  position: relative;
+  height: calc(100vh - 48px);
+}
+
+#map {
+  width: 100%;
+  height: 100%;
+}
+
+.legend {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  background: white;
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 13px;
+  z-index: 1000;
+}
+
+.legend ul {
+  list-style: none;
+  margin-top: 8px;
+}
+
+.legend li {
+  margin-bottom: 6px;
+}
+
+.dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 6px;
+}
+
+.dot.satellite {
+  background: #7fbf7f;
+}
+
+.dot.confirmed {
+  background: #2e7d32;
+}
+
+.info-panel {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background: white;
+  padding: 14px;
+  border-radius: 6px;
+  font-size: 14px;
+  z-index: 1000;
+  min-width: 200px;
+}
