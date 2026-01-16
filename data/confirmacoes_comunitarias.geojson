@@ -1,0 +1,18 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-38.5267, -3.7319]
+      },
+      "properties": {
+        "id_confirmacao": "conf_001",
+        "id_copa": "sat_0001",
+        "status_atual": "existe",
+        "data_confirmacao": "2026-01-15"
+      }
+    }
+  ]
+}
