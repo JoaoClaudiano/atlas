@@ -1,0 +1,29 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-38.5267, -3.7319]
+      },
+      "properties": {
+        "id": "sat_0001",
+        "ano_imagem": 2024,
+        "area_copa_m2": 18.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-38.5235, -3.7298]
+      },
+      "properties": {
+        "id": "sat_0002",
+        "ano_imagem": 2024,
+        "area_copa_m2": 22.5
+      }
+    }
+  ]
+}
